@@ -2,7 +2,10 @@
     width: 90%;
     height: 200px;
     margin: 10px auto;
-    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 
 .card{
@@ -11,6 +14,8 @@
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    width: 300px;
+    height: 140px;
 }
 
 .github {
@@ -20,10 +25,16 @@
     margin-top: -0.7rem;
 }
 
+.h3Title {
+    background-color: lightblue;
+}
+
+.aTitle {
+    font-size: large;
+}
 .aSourceCode {
     font-size: medium;
 }
-
 a:hover {
     text-decoration: none;
     color: limegreen;
